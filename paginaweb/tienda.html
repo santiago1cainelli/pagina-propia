@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda navideña</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda navideña</h1>
+    </header>
+    <nav class="menu">
+        <div class="menu-contenedor"></div>
+        <ul class="menu-flex">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./tienda.html">Tienda</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank">No tocar</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <section>
+        <article>
+            <h2>COMPRE ALGO</h2>
+            <p>
+                Objetos a la venta.
+            </p>
+
+            <form action="mailto:info@business.com" method="post">
+                <table border="1" width="100%">
+                    <tr>
+                        <td><img src="./imagenes/arbol.jpg" alt=""> </td>
+                        <td>
+                            <input type="radio" name="Arbol" value="Arbol">Arbol de navidad<br>
+                            <h1>Precio: $100.000</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./imagenes/luces.jpg" alt=""> </td>
+                        <td>
+                            <input type="radio" name="Luces" value="Luces">Luces navideñas<br>
+                            <h1>Precio: $60.000</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./imagenes/budin.jpg" alt=""> </td>
+                        <td>
+                            <input type="radio" name="Budin" value="Budin">Budin marmolado<br>
+                            <h1>Precio: $5.500</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./imagenes/papa.jpg" alt=""> </td>
+                        <td>
+                            <input type="radio" name="PapaNoel" value="PapaNoel">Papa Noel<br>
+                            <h1>Precio: $900</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>NOMBRE: *</td>
+                        <td><input type="text" name="nombre" placeholder="Escriba su nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td>DIRECCION</td>
+                        <td><input type="text" name="direccion" placeholder="Escriba su dirección"></td>
+                    </tr>
+                    <tr>
+                        <td>TELÉFONO</td>
+                        <td><input type="tel" name="telefono" placeholder="Sin 0 y sin 15"></td>
+                    </tr>
+                    <tr>
+                        <td>MAIL</td>
+                        <td><input type="email" name="email" placeholder="usuario@servidor.com"></td>
+                    </tr>
+                    <tr>
+                        <td>LOCALIDAD</td>
+                        <td><input type="text" name="localidad" placeholder="Escriba su localidad" required></td>
+                    </tr>
+                    <tr>
+                        <td>PROVINCIA</td>
+                        <td><input type="text" name="provincia" placeholder="Escriba su provincia"></td>
+                    </tr>
+                    <tr>
+                        <td>SEXO</td>
+                        <td>
+                            <input type="radio" name="sexo" value="Masculino">Masculino<br>
+                            <input type="radio" name="sexo" value="Femenino">Femenino<br>
+                            <input type="radio" name="sexo" value="Otro">Otro/No quiero especificarlo<br>
+                            <input type="radio" name="sexo" value="Tanque">Tanque sovietico<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DEJA UN COMENTARIO</td>
+                        <td><input type="text" name="comentario" placeholder="Dejar un comentario"></td>
+                    </tr>
+                    <tr>
+                        <td>FORMA DE PAGO</td>
+                        <td>
+                            <select name="formapago">
+                                <option value="">Tarjeta</option>
+                                <option value="">Depósito Bancario</option>
+                                <option value="">Rapipago / Pago Fácil</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar datos"></td>
+                        <td><input type="reset" value="Cancelar"></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>Tienda navideña - Todos los derechos reservados - 2024</p>
+    </footer>
+</body>
+
+</html>
